@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A295A7A018C7F87B00D90512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A295A79F18C7F87B00D90512 /* Foundation.framework */; };
+		A295A7A218C7F87B00D90512 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A295A7A118C7F87B00D90512 /* CoreGraphics.framework */; };
+		A295A7A418C7F87B00D90512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A295A7A318C7F87B00D90512 /* UIKit.framework */; };
+		A295A7AA18C7F87B00D90512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A295A7A818C7F87B00D90512 /* InfoPlist.strings */; };
+		A295A7AC18C7F87B00D90512 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A295A7AB18C7F87B00D90512 /* main.m */; };
+		A295A7B018C7F87B00D90512 /* RITAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A295A7AF18C7F87B00D90512 /* RITAppDelegate.m */; };
+		A295A7B318C7F87B00D90512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A295A7B118C7F87B00D90512 /* Main.storyboard */; };
+		A295A7B618C7F87B00D90512 /* RITViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A295A7B518C7F87B00D90512 /* RITViewController.m */; };
+		A295A7B818C7F87B00D90512 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A295A7B718C7F87B00D90512 /* Images.xcassets */; };
+		A295A7BF18C7F87B00D90512 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A295A7BE18C7F87B00D90512 /* XCTest.framework */; };
+		A295A7C018C7F87B00D90512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A295A79F18C7F87B00D90512 /* Foundation.framework */; };
+		A295A7C118C7F87B00D90512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A295A7A318C7F87B00D90512 /* UIKit.framework */; };
+		A295A7C918C7F87B00D90512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A295A7C718C7F87B00D90512 /* InfoPlist.strings */; };
+		A295A7CB18C7F87B00D90512 /* _200TouchesTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A295A7CA18C7F87B00D90512 /* _200TouchesTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A295A7C218C7F87B00D90512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A295A79418C7F87B00D90512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A295A79B18C7F87B00D90512;
+			remoteInfo = 2200TouchesTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A295A79C18C7F87B00D90512 /* 2200TouchesTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2200TouchesTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A295A79F18C7F87B00D90512 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A295A7A118C7F87B00D90512 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A295A7A318C7F87B00D90512 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A295A7A718C7F87B00D90512 /* 2200TouchesTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2200TouchesTest-Info.plist"; sourceTree = "<group>"; };
+		A295A7A918C7F87B00D90512 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A295A7AB18C7F87B00D90512 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A295A7AD18C7F87B00D90512 /* 2200TouchesTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2200TouchesTest-Prefix.pch"; sourceTree = "<group>"; };
+		A295A7AE18C7F87B00D90512 /* RITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RITAppDelegate.h; sourceTree = "<group>"; };
+		A295A7AF18C7F87B00D90512 /* RITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RITAppDelegate.m; sourceTree = "<group>"; };
+		A295A7B218C7F87B00D90512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A295A7B418C7F87B00D90512 /* RITViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RITViewController.h; sourceTree = "<group>"; };
+		A295A7B518C7F87B00D90512 /* RITViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RITViewController.m; sourceTree = "<group>"; };
+		A295A7B718C7F87B00D90512 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A295A7BD18C7F87B00D90512 /* 2200TouchesTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2200TouchesTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A295A7BE18C7F87B00D90512 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A295A7C618C7F87B00D90512 /* 2200TouchesTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2200TouchesTestTests-Info.plist"; sourceTree = "<group>"; };
+		A295A7C818C7F87B00D90512 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A295A7CA18C7F87B00D90512 /* _200TouchesTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _200TouchesTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A295A79918C7F87B00D90512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A295A7A218C7F87B00D90512 /* CoreGraphics.framework in Frameworks */,
+				A295A7A418C7F87B00D90512 /* UIKit.framework in Frameworks */,
+				A295A7A018C7F87B00D90512 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A295A7BA18C7F87B00D90512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A295A7BF18C7F87B00D90512 /* XCTest.framework in Frameworks */,
+				A295A7C118C7F87B00D90512 /* UIKit.framework in Frameworks */,
+				A295A7C018C7F87B00D90512 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A295A79318C7F87B00D90512 = {
+			isa = PBXGroup;
+			children = (
+				A295A7A518C7F87B00D90512 /* 2200TouchesTest */,
+				A295A7C418C7F87B00D90512 /* 2200TouchesTestTests */,
+				A295A79E18C7F87B00D90512 /* Frameworks */,
+				A295A79D18C7F87B00D90512 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A295A79D18C7F87B00D90512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A295A79C18C7F87B00D90512 /* 2200TouchesTest.app */,
+				A295A7BD18C7F87B00D90512 /* 2200TouchesTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A295A79E18C7F87B00D90512 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A295A79F18C7F87B00D90512 /* Foundation.framework */,
+				A295A7A118C7F87B00D90512 /* CoreGraphics.framework */,
+				A295A7A318C7F87B00D90512 /* UIKit.framework */,
+				A295A7BE18C7F87B00D90512 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A295A7A518C7F87B00D90512 /* 2200TouchesTest */ = {
+			isa = PBXGroup;
+			children = (
+				A295A7AE18C7F87B00D90512 /* RITAppDelegate.h */,
+				A295A7AF18C7F87B00D90512 /* RITAppDelegate.m */,
+				A295A7B118C7F87B00D90512 /* Main.storyboard */,
+				A295A7B418C7F87B00D90512 /* RITViewController.h */,
+				A295A7B518C7F87B00D90512 /* RITViewController.m */,
+				A295A7B718C7F87B00D90512 /* Images.xcassets */,
+				A295A7A618C7F87B00D90512 /* Supporting Files */,
+			);
+			path = 2200TouchesTest;
+			sourceTree = "<group>";
+		};
+		A295A7A618C7F87B00D90512 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A295A7A718C7F87B00D90512 /* 2200TouchesTest-Info.plist */,
+				A295A7A818C7F87B00D90512 /* InfoPlist.strings */,
+				A295A7AB18C7F87B00D90512 /* main.m */,
+				A295A7AD18C7F87B00D90512 /* 2200TouchesTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A295A7C418C7F87B00D90512 /* 2200TouchesTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A295A7CA18C7F87B00D90512 /* _200TouchesTestTests.m */,
+				A295A7C518C7F87B00D90512 /* Supporting Files */,
+			);
+			path = 2200TouchesTestTests;
+			sourceTree = "<group>";
+		};
+		A295A7C518C7F87B00D90512 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A295A7C618C7F87B00D90512 /* 2200TouchesTestTests-Info.plist */,
+				A295A7C718C7F87B00D90512 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A295A79B18C7F87B00D90512 /* 2200TouchesTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A295A7CE18C7F87B00D90512 /* Build configuration list for PBXNativeTarget "2200TouchesTest" */;
+			buildPhases = (
+				A295A79818C7F87B00D90512 /* Sources */,
+				A295A79918C7F87B00D90512 /* Frameworks */,
+				A295A79A18C7F87B00D90512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2200TouchesTest;
+			productName = 2200TouchesTest;
+			productReference = A295A79C18C7F87B00D90512 /* 2200TouchesTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A295A7BC18C7F87B00D90512 /* 2200TouchesTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A295A7D118C7F87B00D90512 /* Build configuration list for PBXNativeTarget "2200TouchesTestTests" */;
+			buildPhases = (
+				A295A7B918C7F87B00D90512 /* Sources */,
+				A295A7BA18C7F87B00D90512 /* Frameworks */,
+				A295A7BB18C7F87B00D90512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A295A7C318C7F87B00D90512 /* PBXTargetDependency */,
+			);
+			name = 2200TouchesTestTests;
+			productName = 2200TouchesTestTests;
+			productReference = A295A7BD18C7F87B00D90512 /* 2200TouchesTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A295A79418C7F87B00D90512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RIT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pronin Alexander";
+				TargetAttributes = {
+					A295A7BC18C7F87B00D90512 = {
+						TestTargetID = A295A79B18C7F87B00D90512;
+					};
+				};
+			};
+			buildConfigurationList = A295A79718C7F87B00D90512 /* Build configuration list for PBXProject "2200TouchesTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A295A79318C7F87B00D90512;
+			productRefGroup = A295A79D18C7F87B00D90512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A295A79B18C7F87B00D90512 /* 2200TouchesTest */,
+				A295A7BC18C7F87B00D90512 /* 2200TouchesTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A295A79A18C7F87B00D90512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A295A7B818C7F87B00D90512 /* Images.xcassets in Resources */,
+				A295A7AA18C7F87B00D90512 /* InfoPlist.strings in Resources */,
+				A295A7B318C7F87B00D90512 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A295A7BB18C7F87B00D90512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A295A7C918C7F87B00D90512 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A295A79818C7F87B00D90512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A295A7B018C7F87B00D90512 /* RITAppDelegate.m in Sources */,
+				A295A7AC18C7F87B00D90512 /* main.m in Sources */,
+				A295A7B618C7F87B00D90512 /* RITViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A295A7B918C7F87B00D90512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A295A7CB18C7F87B00D90512 /* _200TouchesTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A295A7C318C7F87B00D90512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A295A79B18C7F87B00D90512 /* 2200TouchesTest */;
+			targetProxy = A295A7C218C7F87B00D90512 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A295A7A818C7F87B00D90512 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A295A7A918C7F87B00D90512 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A295A7B118C7F87B00D90512 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A295A7B218C7F87B00D90512 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A295A7C718C7F87B00D90512 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A295A7C818C7F87B00D90512 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A295A7CC18C7F87B00D90512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A295A7CD18C7F87B00D90512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A295A7CF18C7F87B00D90512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2200TouchesTest/2200TouchesTest-Prefix.pch";
+				INFOPLIST_FILE = "2200TouchesTest/2200TouchesTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A295A7D018C7F87B00D90512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2200TouchesTest/2200TouchesTest-Prefix.pch";
+				INFOPLIST_FILE = "2200TouchesTest/2200TouchesTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A295A7D218C7F87B00D90512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/2200TouchesTest.app/2200TouchesTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2200TouchesTest/2200TouchesTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "2200TouchesTestTests/2200TouchesTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A295A7D318C7F87B00D90512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/2200TouchesTest.app/2200TouchesTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2200TouchesTest/2200TouchesTest-Prefix.pch";
+				INFOPLIST_FILE = "2200TouchesTestTests/2200TouchesTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A295A79718C7F87B00D90512 /* Build configuration list for PBXProject "2200TouchesTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A295A7CC18C7F87B00D90512 /* Debug */,
+				A295A7CD18C7F87B00D90512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A295A7CE18C7F87B00D90512 /* Build configuration list for PBXNativeTarget "2200TouchesTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A295A7CF18C7F87B00D90512 /* Debug */,
+				A295A7D018C7F87B00D90512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A295A7D118C7F87B00D90512 /* Build configuration list for PBXNativeTarget "2200TouchesTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A295A7D218C7F87B00D90512 /* Debug */,
+				A295A7D318C7F87B00D90512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A295A79418C7F87B00D90512 /* Project object */;
+}
