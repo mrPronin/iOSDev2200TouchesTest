@@ -88,7 +88,6 @@
     [self logTouches:touches WithMethod:@"touchesBegan"];
     UITouch* touch = [touches anyObject];
     CGPoint pointOnMainView = [touch locationInView:self.view];
-
     UIView* view = [self.view hitTest:pointOnMainView withEvent:event];
     
     if (![view isEqual:self.view]) {
@@ -99,9 +98,15 @@
         
         CGPoint touchPoint = [touch locationInView:self.draggingView];
         
+        NSLog(@"bounds = %@", NSStringFromCGRect(self.draggingView.bounds));
+        NSLog(@"MidX = %f, MidY = %f", CGRectGetMidX(self.draggingView.bounds), CGRectGetMidY(self.draggingView.bounds));
+        NSLog(@"Touch point = %@", NSStringFromCGPoint(touchPoint));
+        
         self.touchOffset = CGPointMake(
-                                       CGRectGetMinX(self.draggingView.bounds) - touchPoint.x,
+                                       CGRectGetMidX(self.draggingView.bounds) - touchPoint.x,
                                        CGRectGetMidY(self.draggingView.bounds) - touchPoint.y);
+        
+        NSLog(@"Touch offset = %@", NSStringFromCGPoint(self.touchOffset));
         
         //[self.draggingView.layer removeAllAnimations];
         [UIView animateWithDuration:0.3f animations:^{
